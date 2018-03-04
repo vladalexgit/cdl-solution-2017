@@ -8,6 +8,8 @@ The command line options can be provided in any order:
   - example: ```./log_stats file --interval 2 --start 2017-02-22T18:45 --end 2017-02-22T18:48 --success 20X,401,3X0```
   - or in short format: ```./log_stats file -i 2 -s 2017-02-22T18:45 -e 2017-02-22T18:48 -c 20X,401,3X0```
 
+Some sample input files can be found here: https://github.com/rosedu/problema-cdl-2017/tree/master/tests
+
 Implementation details:
 
 - The program parses the input file line by line and creates instances of the LogEntry class for each entry
